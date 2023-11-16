@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -12px;
+    padding-right: -12px;
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.button {
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    padding: 13px 35px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: transparent;
+    font-family: 'Inter', sans-serif;
+    margin-top: 12px;
+    width: 230px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 400ms linear;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.sidebar {
+    background-color: white;
+    position: absolute;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    z-index: 2;
+    height: 100vh;
+    transition: all 400ms linear;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.49));
+    z-index: 1;
+    transition: all 400ms linear;
+}
+
+.button:hover {
+    background: red;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+svg {
+    cursor: pointer;
+    float: right;
+}
+
+.text-sidebar {
+    padding-top: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-left: 36px;
+}
+
+.text-side {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.7;
+}
