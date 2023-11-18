@@ -1,11 +1,11 @@
-// ===========preloader==========
+// // ===========preloader==========
 
-const preloader = document.getElementById("preloader");
+// const preloader = document.getElementById("preloader");
 
-setTimeout(() => {
-    preloader.classList.add("d-none")
-    preloader.classList.add("overflow-hidden")
-}, 2000)
+// setTimeout(() => {
+//     preloader.classList.add("d-none")
+//     preloader.classList.add("overflow-hidden")
+// }, 2000)
 
 // ===========backtop===============
 let topButton = document.getElementById("backtop");
