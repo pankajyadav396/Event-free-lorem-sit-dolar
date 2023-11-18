@@ -358,6 +358,10 @@ button {
     left: 0;
 }
 
+.z-10 {
+    z-index: 10;
+}
+
 .sec2_line {
     position: relative;
 }
@@ -826,7 +830,7 @@ button {
 }
 
 textarea {
-   resize: unset;
+    resize: unset;
 }
 
 .sec1_head {

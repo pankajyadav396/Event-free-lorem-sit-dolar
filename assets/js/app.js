@@ -1,3 +1,17 @@
+// ===========preloader==========
+
+const preloader = document.getElementById("preloader");
+
+setTimeout(() => {
+    preloader.classList.add("d-none")
+    preloader.classList.add("overflow-hidden")
+}, 2000)
+
+let closeeye = document.getElementById("close-eye");
+let openeye = document.getElementById("open-eye");
+let password = document.getElementById("password");
+
+// ===========backtop===============
 let topButton = document.getElementById("backtop");
 window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
