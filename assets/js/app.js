@@ -4,7 +4,7 @@ const preloader = document.getElementById("preloader");
 
 setTimeout(() => {  
     preloader.style.display = "none"
-    preloader.classList.add("overflow-hidden")
+    document.body.classList.remove("overflow-hidden")
 }, 2000)
 
 

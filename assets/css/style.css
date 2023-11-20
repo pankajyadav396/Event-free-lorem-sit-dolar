@@ -41,7 +41,7 @@
 }
 
 .hero_bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.448)), url(../images/man-speech.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.448)), url(../images/man-speech.webp);
     background-position: center;
     background-size: cover;
 }
@@ -264,6 +264,10 @@ button {
 
 .overflow-hidden {
     overflow: hidden !important;
+}
+
+#overflow-hidden {
+    overflow: hidden;
 }
 
 .align_center {
@@ -542,7 +546,7 @@ button {
 }
 
 .sec3_bg {
-    background-image: linear-gradient(rgba(44, 73, 254, 0.80), rgba(44, 73, 254, 0.80)), url(../images/laughing-girl.png);
+    background-image: linear-gradient(rgba(44, 73, 254, 0.80), rgba(44, 73, 254, 0.80)), url(../images/laughing-girl.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -627,6 +631,9 @@ button {
     color: #000000;
 }
 
+.d-inline{
+    display: inline;
+}
 .learnmorehead:hover {
     cursor: pointer;
     text-decoration: underline;
